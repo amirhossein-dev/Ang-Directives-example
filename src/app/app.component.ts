@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'StructeralDirective';
   isCorrect: Boolean = false;
 
+  switchPorperty:string = "a";
+
   users: string[] = ['Amir Hossein','Sanaz', 'Azhdar', 'Shayan','Shahram'];
 
   usersObj:any = [

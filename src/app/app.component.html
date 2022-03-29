@@ -4,3 +4,11 @@
 
 <button (click)="addNewUser()">Add New User </button>
 <p  *ngFor="let user of usersObj; let i=index trackBy: trackByFunc " >{{ user.id +"- " + user.name }}</p>
+
+<div [ngSwitch]="switchPorperty" >
+<Switch1-app *ngSwitchCase="'a'" ></Switch1-app>    
+<Switch2-app *ngSwitchCase="'b'"></Switch2-app>    
+<Switch3-app *ngSwitchCase="'c'"></Switch3-app>    
+<Switch4-app *ngSwitchCase="'d'"></Switch4-app>    
+
+</div>
